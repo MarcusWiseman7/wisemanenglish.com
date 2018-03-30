@@ -1,0 +1,15 @@
+html a {
+  text-decoration: none !important;
+}
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #322d3c;
+  color: #f0ffff;
+}
+.footer a {
+  color: #f0ffff;
+}
+.footer a :hover {
+  color: #38a8ff;
+}
