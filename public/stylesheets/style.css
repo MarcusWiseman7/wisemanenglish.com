@@ -1,5 +1,35 @@
+html {
+  font-family: 'Lato', sans-serif !important;
+}
 html a {
   text-decoration: none !important;
+}
+#teachers {
+  background-color: #f0f0f0;
+  color: #322d3c;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#teachers h6 {
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+#quote {
+  background-color: #38a8ff;
+  color: #f0f0f0;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#quote h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bold;
 }
 .footer {
   padding-top: 5rem;
