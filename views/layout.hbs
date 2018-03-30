@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+<html lang="en">
+<head>
+
+  {{!-- Meta tags --}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Marcus Wiseman">
+  <meta name="theme-color" content="">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+  <title>{{title}}</title>
+
+  {{!-- Icons --}}
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  {{!-- Styles and fonts --}}
+  <link rel="stylesheet" href="" />
+  <link rel="stylesheet" href="/stylesheets/third-party/bootstrap.min.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  {{!-- <link rel="stylesheet" href="/stylesheets/style.min.css" /> --}}
+</head>
+
+<body>
+
+  {{{body}}}
+
+  {{!-- jquery, bootstrap and plugins --}}
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <script src="./javascripts/third-party/bootstrap.bundle.min.js"></script>
+  
+  {{!-- Scripts --}}
+  <script src="./javascripts/main.js"></script>
+  {{!-- <script src="./javascripts/main.min.js"></script> --}}
+
+</body>
 </html>
