@@ -9,12 +9,21 @@ html a {
   color: #322d3c;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#teachers img {
+  width: 50%;
+  height: auto;
+}
+#teachers h2 {
+  font-size: 4rem;
+  font-weight: bold;
 }
 #teachers h6 {
   text-align: right;
   font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   line-height: 1.5em;
 }
