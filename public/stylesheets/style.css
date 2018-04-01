@@ -1,9 +1,6 @@
 html {
   font-family: 'Lato', sans-serif !important;
 }
-html a {
-  text-decoration: none !important;
-}
 #teachers {
   background-color: #f0f0f0;
   color: #322d3c;
@@ -27,6 +24,27 @@ html a {
   letter-spacing: 1px;
   line-height: 1.5em;
 }
+#teachers #book {
+  padding-top: 3rem;
+}
+#teachers #book h4 {
+  padding-right: 20px;
+}
+#contact-bar {
+  background-color: #38a8ff;
+  color: #f0f0f0;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#contact-bar a {
+  color: #f0f0f0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+#contact-bar a :hover {
+  color: #38a8ff;
+}
 #quote {
   background-color: #38a8ff;
   color: #f0f0f0;
@@ -44,10 +62,10 @@ html a {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #322d3c;
-  color: #f0ffff;
+  color: #f0f0f0;
 }
 .footer a {
-  color: #f0ffff;
+  color: #f0f0f0;
 }
 .footer a :hover {
   color: #38a8ff;
