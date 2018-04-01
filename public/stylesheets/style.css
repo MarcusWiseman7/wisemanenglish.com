@@ -37,12 +37,12 @@ html {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-#contact-bar a {
+#contact-bar .address a {
   color: #f0f0f0;
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
 }
-#contact-bar a :hover {
+#contact-bar .address a :hover {
   color: #38a8ff;
 }
 #quote {
