@@ -1,6 +1,50 @@
 html {
   font-family: 'Lato', sans-serif !important;
 }
+nav {
+  background-color: #fff;
+  height: 5rem;
+}
+nav img {
+  width: auto;
+  height: 5rem;
+}
+nav a {
+  color: #322d3c;
+}
+.navbar-collapse {
+  background-color: #fff;
+  text-indent: 10%;
+}
+.jumbotron {
+  background-color: #322d3c;
+  color: #f0f0f0;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+}
+.jumbotron h1 span {
+  font-size: 6rem;
+}
+#concept {
+  color: #322d3c;
+}
+#concept p {
+  font-size: 2rem;
+}
+#hero {
+  opacity: 0.1;
+}
+.parallax-window {
+  min-height: 70vh;
+  background: transparent;
+}
 #teachers {
   background-color: #f0f0f0;
   color: #322d3c;
@@ -34,13 +78,13 @@ html {
   background-color: #38a8ff;
   color: #f0f0f0;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 #contact-bar .address a {
   color: #f0f0f0;
   font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 #contact-bar .address a :hover {
   color: #38a8ff;
